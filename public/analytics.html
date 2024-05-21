@@ -7,6 +7,57 @@
         .wf-force-outline-none[tabindex="-1"]:focus {
             outline: none;
         }
+
+        .logout-button {
+
+display: block;
+
+margin-top: 8px;
+
+padding: 7px 16px; /* Reduced padding to decrease height */
+
+background-color: #86b38e;
+
+color: white;
+
+border: none;
+
+border-radius: 5px;
+
+cursor: pointer;
+
+text-align: center;
+
+font-size: 12px;
+}
+
+
+
+.logout-button:hover {
+
+background-color: #407c4A;
+
+}
+
+.header {
+display: flex;
+align-items: center;
+}
+
+.header img {
+width: 45px;
+height: auto;
+padding-right: 10px;
+margin-left: 30px;
+}
+
+.header p {
+margin: 0;
+font-size: 16px;
+font-weight: bold;
+color: white;
+}
+
     </style>
     <meta charset="utf-8">
     <title>Police Resource Management System</title>
@@ -323,11 +374,22 @@
                 }
             </style>
         </div>
-        <nav data-w-id="118d8b88-86e5-7a4d-d308-70d496fc3f0c" class="nav-3" style="">
+        <nav data-w-id="118d8b88-86e5-7a4d-d308-70d496fc3f0c" class="nav-3" style="background-color:#407c4A; ">
             <div class="nav-wrap-3">
-                <div class="nav-top"><a href="#" class="logo-link-4 w-inline-block"><img
-                            src="https://assets-global.website-files.com/64e42c771feba79c99920efb/65fab33065e6c276c9c9d98c_download__1_-removebg-preview.png"
-                            loading="lazy" width="129" height="Auto" alt="" class="image-2"></a>
+                <div class="nav-top"><a href="#" class="logo-link-4 w-inline-block"> <div class="nav-top"><a href="#" class="logo-link-4 w-inline-block"><div class="header">
+
+                    <a href="#">
+                
+                        <img src="https://assets-global.website-files.com/64e42c771feba79c99920efb/65fab33065e6c276c9c9d98c_download__1_-removebg-preview.png"
+                
+                             loading="lazy" width="45" height="auto" alt="" class="image-2">
+                
+                    </a>
+                
+                    <p>Karnataka Police</p>
+                
+                </div>
+                <br>
                     <div class="form-block-2 w-form">
                         <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2"
                             data-wf-page-id="65f6c95f53cdcc61b9a2a8d5"
@@ -419,9 +481,9 @@
                             <img src="https://assets-global.website-files.com/64e42c771feba79c99920efb/65f8b160938be28f9c2037a6_profile%20img.jpg" loading="lazy" alt="" class="profile-img-4">
                             </a>
                             <div class="profile-text">
-                                <p class="mb-10">DSP-12345</p>
+                                
                                 <p class="p-12" id="userEmail"></p>
-                              
+                                <button onclick="logout()" class="logout-button">Logout</button>
                             </div>
                         </div>
 
@@ -438,7 +500,7 @@
                         </div>
                     </div>
                     </div>
-                <iframe title="Europe Crime Analysis" width="1200" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMzA3MWExMjYtMjExNC00ZjMwLWJmODctNWQ4Y2UxZTdmMGM4IiwidCI6IjliZDg4NmM5LWY1MzItNDM0NS1hMmNlLWRhZjZlOTg5OGQzMiIsImMiOjN9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+                <iframe title="Europe Crime Analysis" width="1100" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMzA3MWExMjYtMjExNC00ZjMwLWJmODctNWQ4Y2UxZTdmMGM4IiwidCI6IjliZDg4NmM5LWY1MzItNDM0NS1hMmNlLWRhZjZlOTg5OGQzMiIsImMiOjN9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
        
         </div>          </div>      
                                     </div>
@@ -471,7 +533,7 @@
 
 // Display the email
 document.getElementById("userEmail").innerText = userEmail;
-    </script>
+  
 
 
 function showNotification() {
