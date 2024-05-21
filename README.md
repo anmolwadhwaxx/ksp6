@@ -1,4 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://ksp5-working-demo.vercel.app/" target="_blank">
+<img src="https://github.com/anmolwadhwaxx/ksp5/assets/94642300/12c30b32-1135-48a9-927a-b2308e8ecd33">
+</a>
+
+# Police Resouce Management System
+
+## Description
+
+Police Resouce Management System equips police departments with a comprehensive analytical dashboard. It seamlessly integrates performance indicators, resource management tools, and cutting-edge technology to empower informed decision-making and optimize task management for officers.
+
+### Features
+
+- Performance Indicators: Display crime rates, conviction rates, and arrest statistics.
+- Resource Allocation: Task assignment and duty roster management features.
+- Hierarchical Aggregation: Allows comparison across supervision levels.
+- Automated Alerts: Generates alerts for incomplete tasks.
+- User Feedback Integration: Incorporates user feedback for improvement.
+
+## Screenshots
+
+### Dashboard
+![a](https://github.com/anmolwadhwaxx/ksp5/assets/94642300/51011b38-3376-416c-9372-95782727e4af)
+
+### Architecture
+<img src="https://github.com/anmolwadhwaxx/ksp5/assets/94642300/7a5c9b14-729b-4224-92f6-78640a60eb0b" width="1100">
+
+## Link
+
+Project can be found here - <a href ="https://ksp5-working-demo.vercel.app/"><p>https://ksp5-working-demo.vercel.app</p></a>
+> For login please use one of the following emails: psi@ksp.com, pi@ksp.com, dysp@ksp.com
+
+
+## Setup
+
+There are some necessary steps to get the project up and running.
 
 ## Getting Started
 
@@ -6,35 +40,12 @@ First, install the required packages:
 
 ```bash
 npm install
-# or
-yarn
 ```
 
 Next, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-# master
